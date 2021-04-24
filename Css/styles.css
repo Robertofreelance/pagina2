@@ -12,6 +12,20 @@
   font-size: 16px;
 }
 
+.page .video-responsive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* max-height: 0vh; */
+  max-height: 40vh;
+}
+
 @media (min-width: 994px) {
   .page #img-hidden {
     display: none;
@@ -307,6 +321,7 @@
   font-family: "Montserrat";
   font-size: 1rem;
   font-weight: 500;
+  width: 100%;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   padding: 10px;

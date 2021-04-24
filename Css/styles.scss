@@ -9,7 +9,13 @@
     font-size: 16px;
   }
 
-
+  .video-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 0vh; */
+    max-height: 40vh;
+  }
   @media (min-width: 994px) {
     #img-hidden {
       display: none;
@@ -139,7 +145,6 @@
     text-align: center;
     justify-content: center;
     z-index: 0;
-    
   }
   .border1 {
     padding-top: 2%;
@@ -186,7 +191,6 @@
   .border2 {
     padding-top: 3%;
     right: 0;
-    
   }
   .border3 {
     border-bottom-right-radius: 7.2em;
@@ -246,6 +250,7 @@
     font-family: "Montserrat";
     font-size: 1rem;
     font-weight: 500;
+    width: 100%;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding: 10px;
@@ -254,9 +259,9 @@
       0 1px 0 rgb(255, 255, 255 / 10%);
   }
   .text-lightgray {
-    color: #676868
+    color: #676868;
   }
-  
+
   @media screen and (max-width: 500px) {
     .min-100 {
       min-height: 60vh;
