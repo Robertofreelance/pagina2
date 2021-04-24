@@ -1,0 +1,340 @@
+.page {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.page .text-low {
+  font-size: 12px;
+}
+
+.page p,
+.page li {
+  font-size: 16px;
+}
+
+@media (min-width: 994px) {
+  .page #img-hidden {
+    display: none;
+  }
+}
+
+.page .min-60 {
+  min-height: 60vh;
+}
+
+.page .higher {
+  font-size: 18px;
+}
+
+.page .light-blue {
+  color: #00b9cf;
+}
+
+.page .light-pink {
+  color: #ff6161;
+}
+
+.page #img-no-hidden {
+  display: none;
+}
+
+.page img {
+  width: 100%;
+}
+
+.page .low-img {
+  width: 50px;
+  height: 80px;
+}
+
+.page .low-img-book {
+  width: 50px;
+  height: 50px;
+}
+
+.page .icon {
+  font-size: 5em;
+  color: #00b3a7;
+}
+
+.page .text-darkblue {
+  color: #3b4799;
+}
+
+.page .start {
+  background-color: #f2f4ff;
+  -webkit-box-shadow: 0px 11px 10px 2px #cfcaca;
+          box-shadow: 0px 11px 10px 2px #cfcaca;
+}
+
+.page .first {
+  border-top-right-radius: 1rem !important;
+  border-top-left-radius: 1rem !important;
+}
+
+.page .last {
+  border-bottom-right-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
+  -webkit-box-shadow: 0px 8px 10px 2px #cfcaca !important;
+          box-shadow: 0px 8px 10px 2px #cfcaca !important;
+}
+
+.page .radius-top {
+  border-top-right-radius: 5rem !important;
+  border-top-left-radius: 5rem !important;
+}
+
+.page .hundred {
+  width: 100%;
+}
+
+.page .text-super-low {
+  font-size: 0.6em;
+}
+
+.page .radius-bottom {
+  border-bottom-right-radius: 5rem !important;
+  border-bottom-left-radius: 5rem !important;
+}
+
+.page .radius-top-section-4 {
+  border-top-right-radius: 2rem !important;
+  border-top-left-radius: 2rem !important;
+}
+
+.page .radius-bottom-section-4 {
+  border-bottom-right-radius: 2rem !important;
+  border-bottom-left-radius: 2rem !important;
+}
+
+.page .bg-darkblue {
+  background: radial-gradient(#354697, #2d346b);
+}
+
+.page .bg-darkcian {
+  background: radial-gradient(#00b3a7, #015f59);
+}
+
+.page .bordered {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.page .bordercard {
+  -webkit-box-shadow: 0px 0px 10px 2px #a9a8a8;
+          box-shadow: 0px 0px 10px 2px #a9a8a8;
+}
+
+.page .bg-cian {
+  background: #00b3a7;
+}
+
+@media (min-width: 994px) {
+  .page #img-no-hidden {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 1200px) {
+  .page .well2 {
+    font-size: 0.7rem !important;
+  }
+}
+
+.page .embed-responsive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page .embed-responsive .embed-responsive-item,
+.page .embed-responsive embed,
+.page .embed-responsive iframe,
+.page .embed-responsive object,
+.page .embed-responsive video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.page .darkblue {
+  background-color: #3b4799;
+  height: 250px;
+  bottom: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 0;
+  padding-top: 180px;
+}
+
+.page .border1 {
+  border-bottom-left-radius: 20em;
+  right: 0;
+}
+
+.page .banner {
+  width: 100%;
+}
+
+.page ol::marker,
+.page li::marker,
+.page ul::marker {
+  font-weight: bolder;
+}
+
+.page .img-banner {
+  width: 100%;
+  background-position: left, left;
+  background-position-y: 30%;
+  background-size: cover;
+  font-size: 12px;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 7em;
+  -webkit-box-shadow: 0px 0px 26px 8px #e8e8e8;
+          box-shadow: 0px 0px 26px 8px #e8e8e8;
+}
+
+.page .img-banner-reverse {
+  width: 99%;
+  background-position: left, left;
+  background-position-y: 30%;
+  background-size: cover;
+  font-size: 12px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 7em;
+  -webkit-box-shadow: 0px 0px 26px 8px #e8e8e8;
+          box-shadow: 0px 0px 26px 8px #e8e8e8;
+}
+
+.page .sec-3-card {
+  border-top-left-radius: 4em;
+  border-bottom-right-radius: 4em;
+  -webkit-box-shadow: 0px 0px 26px 8px #e8e8e8;
+          box-shadow: 0px 0px 26px 8px #e8e8e8;
+}
+
+.page .border2 {
+  border-bottom-left-radius: 9em;
+  right: 0;
+  padding-top: 197px;
+}
+
+.page .border3 {
+  border-bottom-right-radius: 7.2em;
+  border-bottom-left-radius: 7em;
+  right: 0;
+}
+
+.page .text-responsive {
+  font-size: 18px;
+}
+
+.page .img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 87%;
+  background-size: cover;
+  border-bottom-left-radius: 100%;
+  border-top-left-radius: 100%;
+  z-index: 7;
+}
+
+.page .img-reverse {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  border-bottom-left-radius: 3em;
+  border-top-left-radius: 3em;
+  z-index: 7;
+  -webkit-box-shadow: 0px -29px 20px #efeeee;
+          box-shadow: 0px -29px 20px #efeeee;
+}
+
+.page .img1 {
+  background-image: url(../Img/b1.png);
+}
+
+.page .img2 {
+  background-image: url(../Img/b2.png);
+  background-position: center;
+  background-color: #000;
+  background-size: 60% 80%;
+  background-repeat: no-repeat;
+}
+
+.page .img3 {
+  background-image: url(../Img/b3.png);
+}
+
+.page .high {
+  min-height: 500px;
+}
+
+.page .darkblue h4 {
+  width: 80%;
+}
+
+.page .well2 {
+  background-color: #3b4799;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  z-index: -1;
+  -webkit-box-shadow: inset 0 1px 3px black, 0 1px 0 #ffff1a;
+          box-shadow: inset 0 1px 3px black, 0 1px 0 #ffff1a;
+}
+
+@media screen and (max-width: 990px) {
+  .page .darkblue {
+    padding-top: 190px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page .border1 {
+    border-bottom-left-radius: 10em;
+  }
+  .page .img2 {
+    background-position: right;
+    background-size: 80% 80%;
+  }
+  .page .border1, .page .border2 {
+    padding-top: 200px;
+  }
+  .page .border1 h4, .page .border2 h4 {
+    width: 80%;
+  }
+  .page .border1 .text-responsive, .page .border2 .text-responsive {
+    font-size: 14px;
+    padding-right: 9px;
+    text-align: end;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
